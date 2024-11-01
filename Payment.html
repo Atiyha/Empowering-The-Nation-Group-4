@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering the Nation</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header">      
+            <div class="title">
+                <img src="Images/Empowering the nation_transparent-.png" width="300" height="300">
+            </div>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <a href="FirstPage.html" class="nav-item">
+            <img src="Images/Exterior.png" alt="Home">
+            <span>Home</span>
+        </a>
+
+        <div class="dropdown nav-item">
+            <a href="SecondPage.html" class="dropbtn">
+                <img src="Images/Literature.png" alt="Six week courses">
+                <span>Six week courses</span>
+            </a>
+        </div>
+
+        <div class="dropdown nav-item">
+            <a href="ThirdPage.html" class="dropbtn">
+                <img src="Images/Literature.png" alt="Six month courses">
+                <span>Six month courses</span>
+            </a>
+        </div>
+
+        <a href="Payment.html" class="nav-item">
+            <img src="Images/Cash.png" alt="Payments">
+            <span>Payments</span>
+        </a>
+    </nav>
+
+    <main class="content">
+        <p>Empowering the Nation was established in 2018 and offers courses in Johannesburg.</p>
+        <p>Hundreds of domestic workers and gardeners have been trained on both the six-month</br>
+        long Learnerships and six-week Short Skills Training Programmes to empower themselves 
+        and can provide more marketable skills.</p>
+        <div class="course-list">
+            <label>
+                <input type="checkbox" class="course-checkbox" data-fee="1500"> First Aid (Fee: R1500)
+            </label><br>
+            <label>
+                <input type="checkbox" class="course-checkbox" data-fee="1500"> Sewing (Fee: R1500)
+            </label><br>
+            <label>
+                <input type="checkbox" class="course-checkbox" data-fee="1500"> Landscaping (Fee: R1500)
+            </label><br>
+            <label>
+                <input type="checkbox" class="course-checkbox" data-fee="1500"> Life skills (Fee: R1500)
+            </label><br>
+            <label>
+                <input type="checkbox" class="course-checkbox" data-fee="750"> Child minding (Fee: R750)
+            </label><br>
+            <label>
+                <input type="checkbox" class="course-checkbox" data-fee="750"> Cooking (Fee: R750)
+            </label><br>
+            <label>
+                <input type="checkbox" class="course-checkbox" data-fee="750"> Garden maintenance (Fee: R750)
+            </label><br>
+        </div>
+
+        <button class="confirm-button" onclick="calculateTotal()">Confirm</button>
+
+        <div class="result" id="totalAmount"></div>
+    </main>
+
+    <footer class="footer">
+        <a href="https://www.facebook.com/" class="footer-item"><img src="Images/Facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" class="footer-item"><img src="Images/Instagram.png" alt="Instagram"></a>
+        <a href="#" class="footer-item"><img src="Images/Gmail Logo.png" alt="Email"></a>
+        <a href="#" class="footer-item"><img src="Images/Phone.png" alt="Phone"></a>
+    </footer>
+    <script>
+        function calculateTotal() {
+            const checkboxes = document.querySelectorAll('.course-checkbox');
+            let totalFee = 0;
+            let selectedCourses = 0;
+
+            // Calculate the total fee and count selected courses
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    totalFee += parseInt(checkbox.getAttribute('data-fee'));
+                    selectedCourses++;
+                }
+            });
+
+            // Apply discount based on the number of selected courses
+            if (selectedCourses === 2) {
+                totalFee = totalFee * 0.95; // 5% discount
+            } else if (selectedCourses === 3) {
+                totalFee = totalFee * 0.90; // 10% discount
+            } else if (selectedCourses > 3) {
+                totalFee = totalFee * 0.85; // 15% discount
+            }
+
+            // Display the total amount
+            document.getElementById('totalAmount').innerText = `Total amount to be paid: R${totalFee.toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>
