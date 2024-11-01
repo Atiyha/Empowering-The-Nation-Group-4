@@ -61,3 +61,24 @@ My proactive approach to problem-solving benefited the organization, and my coll
 
 Conclusion
 Overall, my WIL experience was highly rewarding. It offered invaluable insights into industry practices, enhanced my professional skills, and prepared me for future challenges. This journey has equipped me with the confidence and competence needed to excel in my care
+
+
+Atiyha Haripersadh
+
+Within the module Work Integrated Learning, I learnt that the purpose of it is to a educate learners in 21st century skills. 21st Century Skills consist of Academic Skills being problem solving and critical thinking, Interpersonal Skills being communication and collaboration skills and Interpersonal Skills being self-management skills. We are being taught how to professionally manage ourselves in the future by using the skills we learn in this module. 
+
+Within this module I learnt how to manage my time, manage crises and effectively plan and brainstorm within a team to understand the tasks at hand. Throughout the semester I also learnt how to present myself in front of an audience. When it comes to managing time, I constantly set up times for the team to talk and plan the presentation, regularly spacing out the meetings to ensure that we all understand where we are and are all keeping up with the pace. I also learnt how to effectively maneuver and assist the team when it came to facing problems and how to get around each challenge. I also had to manage the problems that came with coding my application, as at first I had trouble choosing a software because most people went with Typescript whereas I went with Kotlin. I also had trouble fixing my code for it to run correctly as each time I ran it, it came up with an error and refused to run smoothly. 
+
+My role on the team was to develop and create the mobile Application as well as coming up with the PowerPoint presentations. Liam and Dezlan assisted a lot in the planning and designing and determining how the app would look and run. As well as contributing and planning the content that would be put out one the app and website. 
+
+To gather information on how we wanted the application to look I looked at other simple college apps to get a vague idea of who we wanted the app to look and edited it to our liking as well as to suit our skill set. I then created the structure of how we wanted the app, so it was just a skeleton. 
+
+I believe I managed the time spacing for planning really well, as well as ensuring each member knew what they had to do when it came to developing the work that we needed to. I also believe I strived in making interesting and creative PowerPoints to easily display and present the work that we needed to. While I felt like I did okay when developing the application, I did face challenges when running it, as I was unsure as to why my error refused to run, although I shortly after learnt that my emulator crashing was not in my control. Although I do feel like we could have done more to make both the website and application look more appealing and less formally professional. I also believe that I managed to reach deadlines although I did run into issues that I could not control and had to stay away from one of the presentations that we had to do when displaying the semi-final application and website. 
+
+Within our WIL lectures, the coordinator/lecturer made us feel welcome and was easy to talk to. He was patient when it came to trying to understand our issues and understanding when it came to our struggles. I feel like we could have made the relationship a lot stronger had we been more interactive with him. Although despite being a good coordinator and lecturer, his lessons used to be a bit boring, as we usually found it hard to hear he remained interested as he used the same tone throughout all his lectures. 
+
+I helped the group by reminding them of deadlines, and of tasks they had to do. I also stayed on top of the ball and managed the tasks each member had to do and made sure they all corresponded and made sense with each other. 
+
+WIL has greatly helped me understand how it would feel to pitch a new app or website had we have to make one in the future. How to deal with challenges and present ourselves to the right audience. It helped us with real scenarios we would have to deal with in the future if we proceed with the development of applications and websites. 
+
+
